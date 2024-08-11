@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2 class="text-center">X-Ray</h2>
+        <h2 class="text-center">Medical Record For {{$name}}</h2>
         <table class="table table-bordered table-striped mt-4">
             <thead class="thead-dark">
                 <tr>
