@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function medicalRecords()
+    {
+        return $this->hasMany(MedicalRecord::class, 'user_id');
+    }
 }
